@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        .profile {
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #007bff;
+        }
+        .profile h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .profile p {
+            font-size: 16px;
+            color: #666;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills span {
+            background: rgba(0, 123, 255, 0.8);
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: transparent;
+            padding: 10px 0;
+            display: flex;
+            justify-content: flex-start;
+            box-shadow: none;
+        }
+       nav a {
+            margin: 0 15px;
+            color: #000; /* 设置字体颜色为黑色 */
+            text-decoration: none;
+            font-size: 14px;
+}
+        nav a:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <a href=".\index.html">首页</a>
+        <a href="news.html">新闻</a>
+        <a href="about.html">关于</a>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img src="https://github.com/songzichen120825.png" alt="Profile Picture">
+            <h1>Song Zichen</h1>
+            <p>一个热爱编程和探索新技术的开发者。</p>
+        </div>
+        <div class="section">
+            <h2>个人简介</h2>
+            <p>你好，我是宋梓辰，一个对技术充满热情的开发者。我专注于前端开发和全栈开发，喜欢通过代码解决问题，并不断学习新技术。在业余时间，我喜欢阅读、旅行和探索新的事物。</p>
+        </div>
+        <div class="section">
+            <h2>技能</h2>
+            <div class="skills">
+                <span>C</span>
+                <span>shell</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Git</span>
+                <span>Java</span>
+            </div>
+        </div>
+        <div class="section">
+            <h2>联系方式</h2>
+            <p>如果你有任何问题或想要合作，可以通过以下方式联系我：</p>
+            <p>Email: 2315623420@qq.com</p>
+            <p>GitHub: <a href="https://github.com/songzichen120825" target="_blank">songzichen120825</a></p>
+        </div>
+    </div>
+</body>
+</html>
